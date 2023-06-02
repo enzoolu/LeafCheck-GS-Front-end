@@ -1,0 +1,30 @@
+header {
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header li {
+    text-decoration: none;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 100;
+    transition: .3s;
+}
+
+header a:hover {
+    color: var(--verde-escuro);
+}

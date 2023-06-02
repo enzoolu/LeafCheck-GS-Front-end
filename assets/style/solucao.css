@@ -1,0 +1,18 @@
+.solucao {
+    padding-top: 120px;
+    height: 100vh;
+}
+
+.linha1,
+.linha2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.linha1 p,
+.linha2 p {
+    width: 555px;
+}
