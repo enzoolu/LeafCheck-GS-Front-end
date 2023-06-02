@@ -26,5 +26,16 @@ header a {
 }
 
 header a:hover {
-    color: var(--verde-escuro);
+    color: var(--verde-logo);
+}
+
+.plano {
+    padding: 12px;
+    background-color: var(--verde-logo);
+    border-radius: 15px;
+}
+
+.plano:hover {
+    background-color: var(--verde-escuro);
+    color: #000;
 }
