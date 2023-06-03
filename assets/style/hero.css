@@ -1,8 +1,5 @@
 .hero {
     height: 90vh;
-}
-
-.apresentacao {
     padding-top: 110px;
     display: flex;
     flex-direction: column;
