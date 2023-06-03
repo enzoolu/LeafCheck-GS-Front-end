@@ -27,18 +27,16 @@
 
 .hero-images {
     margin-top: 70px;
-    width: 55%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
 .coluna-img-pequenas {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-left: 12px;
 }
 
 .coluna-img-pequenas img {
