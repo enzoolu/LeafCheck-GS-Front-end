@@ -53,3 +53,9 @@ hr {
     font-size: 22px;
     font-weight: 200;
 }
+
+@media (max-width: 1175px) {
+    .objetivos-titulo p {
+        font-size: 48px;
+    }
+}
