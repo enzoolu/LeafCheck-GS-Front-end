@@ -40,11 +40,3 @@ header a:hover {
     background-color: var(--verde-escuro);
     color: #000;
 }
-
-.mobile-menu-icon{
-    display: none;
-}
-
-.mobile-menu{
-    display: none;
-}
