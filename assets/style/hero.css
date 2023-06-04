@@ -30,6 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -42,4 +43,34 @@
 .coluna-img-pequenas img {
     height: 200px;
     width: 175px;
+}
+
+@media (max-width: 768px) {
+    .coluna-img-grande {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-images {
+        gap: 10px;
+    }
+
+    .textos-apresentacao h1 {
+        margin-top: -260px;
+        font-size: 32px;
+    }
+
+    .textos-apresentacao p {
+        font-size: 18px;
+        width: 95%;
+    }
+
+    .hero-images {
+        margin-top: 20px;
+    }
+
+    .ultima-coluna {
+        display: none;
+    }
 }
