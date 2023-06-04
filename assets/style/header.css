@@ -48,37 +48,3 @@ header a:hover {
 .mobile-menu{
     display: none;
 }
-
-@media (max-width: 1291px) {
-    .mobile-menu-icon {
-        display: block;
-    }
-
-    .mobile-menu-icon button {
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        padding-top: 10px;
-    }
-
-    .mobile-menu ul {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        padding-bottom: 16px;
-        border-top: 2px solid var(--verde-escuro);
-    }
-
-    .mobile-menu .menu-item {
-        display: block;
-        padding-top: 16px ;
-    }
-
-    .open {
-        display:block ;
-    }
-
-    .menu-desktop {
-        display: none;
-    }
-}

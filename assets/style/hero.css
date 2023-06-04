@@ -43,15 +43,3 @@
     height: 200px;
     width: 175px;
 }
-
-@media (max-width: 1629px) {
-    .apresentacao {
-        padding-top: 75px
-    }
-}
-
-@media (max-width: 1291px) {
-    .textos-apresentacao {
-        width: 70%;
-    }
-}

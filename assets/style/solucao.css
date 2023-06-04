@@ -19,18 +19,3 @@
 .linha2 p {
     width: 555px;
 }
-
-@media (max-width: 1347px) {
-    .linha1,
-    .linha2 {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        gap: 30px;
-    }
-
-    .linha1 p,
-    .linha2 p {
-        width: 200px;
-    }
-}
