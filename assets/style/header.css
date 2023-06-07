@@ -51,7 +51,7 @@ header a:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 645px) {
     nav {
         display: none;
     }
