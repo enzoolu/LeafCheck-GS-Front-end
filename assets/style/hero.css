@@ -46,6 +46,48 @@
     width: 175px;
 }
 
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    .textos-apresentacao h1 {
+        font-size: 108px;
+    }
+
+    .textos-apresentacao p {
+        font-size: 44px;
+    }
+
+    .hero-images .coluna-img-pequenas img {
+        padding: 0px 50px 0px 50px;
+        width: 120%;
+        height: 120%;
+    }
+
+    .coluna-img-grande {
+        display: none;
+    }
+}
+
+/* Responsivo Mobile L */
+@media (max-width: 425px) {
+    .hero-images {
+        margin-right: 10px;
+    }
+}
+
+/* Responsivo Mobile M */
+@media (max-width: 375px) {
+    .hero-images {
+        margin-right: 40px;
+    }
+}
+
+/* Responsivo Mobile S */
+@media (max-width: 320px) {
+    .hero-images {
+        margin-left: 7px;
+    }
+}
+
 @media (max-width: 1280px) {
     .coluna-img-grande {
         display: none;
