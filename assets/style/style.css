@@ -1,23 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --verde-escuro: #2DAC23;
-    --verde-logo: #4ecca3;
-    --background: #ebebeb;
+  --verde-escuro: #2dac23;
+  --verde-logo: #4ecca3;
+  --background: #ebebeb;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Readex Pro', sans-serif;
-    font-family: 'Ubuntu', sans-serif;
-    background-color: var(--background);
+  font-family: "Inter", sans-serif;
+  background-color: var(--background);
+}
+
+.titulo {
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 200;
+}
+
+@media (max-width: 1280px) {
+  .titulo {
+    display: none !important;
+  }
 }
